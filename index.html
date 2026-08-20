@@ -2,18 +2,34 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <title>AmahDrop | Fast, Safe & Reliable Delivery in Douala</title>
-  <meta name="description" content="AmahDrop delivers parcels from agencies directly to customers' homes across Douala. Fast, safe and reliable parcel delivery.">
+
+  <meta
+    name="description"
+    content="AmahDrop provides fast, safe and reliable parcel delivery across Douala. We collect parcels from homes, businesses and transport agencies and deliver them directly to customers."
+  >
+
+  <meta
+    name="keywords"
+    content="AmahDrop, parcel delivery Douala, delivery service Cameroon, motorcycle delivery Douala, home delivery Douala, business delivery Cameroon"
+  >
+
+  <meta name="theme-color" content="#0b6b4f">
 
   <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
 
-  <!-- NAVIGATION -->
-  <header class="navbar">
+  <!-- =========================
+       NAVIGATION
+  ========================== -->
+
+  <header class="navbar" id="navbar">
+
     <div class="container nav-content">
 
       <a href="#home" class="logo">
@@ -21,316 +37,972 @@
         <span>AmahDrop</span>
       </a>
 
-      <nav>
+      <nav class="desktop-nav" id="desktopNav">
         <a href="#home">Home</a>
         <a href="#services">Services</a>
         <a href="#how">How It Works</a>
-        <a href="#zones">Prices</a>
-        <a href="#partners">Partners</a>
+        <a href="#prices">Prices</a>
+        <a href="#business">Business</a>
         <a href="#contact">Contact</a>
       </nav>
 
-      <a class="whatsapp-nav"
-         href="https://wa.me/237659390725"
-         target="_blank">
-        WhatsApp Us
+      <div class="nav-actions">
+
+        <a
+          class="whatsapp-nav"
+          href="https://wa.me/237659390725?text=Hello%20AmahDrop,%20I%20would%20like%20to%20make%20a%20delivery%20request."
+          target="_blank"
+          rel="noopener"
+        >
+          WhatsApp Us
+        </a>
+
+        <button
+          class="menu-toggle"
+          id="menuToggle"
+          aria-label="Open navigation menu"
+          aria-expanded="false"
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+      </div>
+
+    </div>
+
+    <!-- MOBILE MENU -->
+
+    <div class="mobile-menu" id="mobileMenu">
+
+      <a href="#home">Home</a>
+      <a href="#services">Services</a>
+      <a href="#how">How It Works</a>
+      <a href="#prices">Prices</a>
+      <a href="#business">Business</a>
+      <a href="#contact">Contact</a>
+
+      <a
+        class="mobile-whatsapp"
+        href="https://wa.me/237659390725?text=Hello%20AmahDrop,%20I%20would%20like%20to%20make%20a%20delivery%20request."
+        target="_blank"
+        rel="noopener"
+      >
+        💬 Chat on WhatsApp
       </a>
 
     </div>
+
   </header>
 
 
-  <!-- HERO -->
-  <section id="home" class="hero">
-    <div class="container hero-content">
+  <!-- =========================
+       HERO
+  ========================== -->
 
-      <div class="hero-text">
-        <span class="badge">DOUALA'S PARCEL DELIVERY PARTNER</span>
+  <main>
 
-        <h1>
-          Fast, Safe &amp;<br>
-          <span>Reliable Delivery.</span>
-        </h1>
+    <section id="home" class="hero">
 
-        <p>
-          We collect your parcels from transport agencies and deliver
-          them directly to your customer's doorstep across Douala.
+      <div class="container hero-content">
+
+        <div class="hero-text">
+
+          <span class="badge">
+            DOUALA'S PARCEL DELIVERY PARTNER
+          </span>
+
+          <h1>
+            Fast, Safe &amp;
+            <span>Reliable Delivery.</span>
+          </h1>
+
+          <p>
+            From your home, your business or a transport agency,
+            AmahDrop gets your parcel where it needs to go —
+            quickly and conveniently across Douala.
+          </p>
+
+          <div class="hero-buttons">
+
+            <a
+              class="btn primary"
+              href="https://wa.me/237659390725?text=Hello%20AmahDrop,%20I%20would%20like%20to%20request%20a%20delivery."
+              target="_blank"
+              rel="noopener"
+            >
+              📦 Request a Delivery
+            </a>
+
+            <a class="btn secondary" href="#business">
+              🤝 Partner With Us
+            </a>
+
+          </div>
+
+          <div class="hero-features">
+
+            <div>✓ Door-to-door</div>
+            <div>✓ Reliable Riders</div>
+            <div>✓ Douala-wide</div>
+
+          </div>
+
+        </div>
+
+
+        <div class="hero-card">
+
+          <div class="delivery-icon">
+            🏍️
+          </div>
+
+          <h3>
+            Your Parcel.<br>
+            Our Responsibility.
+          </h3>
+
+          <p>
+            We pick up your parcel from your home,
+            business or transport agency and deliver it
+            directly to its destination.
+          </p>
+
+          <div class="hero-card-badge">
+            Fast • Safe • Reliable
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- =========================
+         SERVICES
+    ========================== -->
+
+    <section id="services" class="section">
+
+      <div class="container">
+
+        <div class="section-heading">
+
+          <span>WHAT WE DO</span>
+
+          <h2>
+            Delivery Solutions Made For You
+          </h2>
+
+          <p>
+            Whether you are receiving a parcel, sending one,
+            or running a business, AmahDrop makes delivery simple.
+          </p>
+
+        </div>
+
+
+        <div class="cards">
+
+
+          <!-- SERVICE 1 -->
+
+          <div class="card">
+
+            <div class="card-icon">
+              🏠
+            </div>
+
+            <span class="card-label">
+              HOME → AGENCY
+            </span>
+
+            <h3>
+              Home Pickup
+            </h3>
+
+            <p>
+              We pick up your parcel from your home and
+              help you send it through your preferred
+              transport agency.
+            </p>
+
+            <a
+              class="card-link"
+              href="https://wa.me/237659390725?text=Hello%20AmahDrop,%20I%20need%20a%20home%20pickup."
+              target="_blank"
+              rel="noopener"
+            >
+              Request pickup →
+            </a>
+
+          </div>
+
+
+          <!-- SERVICE 2 -->
+
+          <div class="card featured-card">
+
+            <div class="card-icon">
+              📦
+            </div>
+
+            <span class="card-label">
+              AGENCY → DOOR
+            </span>
+
+            <h3>
+              Agency Pickup &amp; Delivery
+            </h3>
+
+            <p>
+              Your parcel has arrived at a transport agency?
+              We collect it and deliver it directly to your
+              home, office or preferred location.
+            </p>
+
+            <a
+              class="card-link"
+              href="https://wa.me/237659390725?text=Hello%20AmahDrop,%20my%20parcel%20is%20at%20a%20transport%20agency%20and%20I%20need%20delivery."
+              target="_blank"
+              rel="noopener"
+            >
+              Get my parcel →
+            </a>
+
+          </div>
+
+
+          <!-- SERVICE 3 -->
+
+          <div class="card">
+
+            <div class="card-icon">
+              🏪
+            </div>
+
+            <span class="card-label">
+              BUSINESS → CUSTOMER
+            </span>
+
+            <h3>
+              Business Delivery
+            </h3>
+
+            <p>
+              We collect orders from shops, online sellers
+              and businesses and deliver them directly
+              to their customers.
+            </p>
+
+            <a
+              class="card-link"
+              href="https://wa.me/237659390725?text=Hello%20AmahDrop,%20I%20am%20a%20business%20owner%20and%20I%20need%20delivery%20services."
+              target="_blank"
+              rel="noopener"
+            >
+              Deliver my orders →
+            </a>
+
+          </div>
+
+
+          <!-- SERVICE 4 -->
+
+          <div class="card">
+
+            <div class="card-icon">
+              ⚡
+            </div>
+
+            <span class="card-label">
+              ON-DEMAND
+            </span>
+
+            <h3>
+              Convenient Delivery
+            </h3>
+
+            <p>
+              Tell us where the parcel is and where it needs
+              to go. We coordinate the pickup and delivery
+              through WhatsApp.
+            </p>
+
+            <a
+              class="card-link"
+              href="#contact"
+            >
+              Contact us →
+            </a>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- =========================
+         WHY AMAHDROP
+    ========================== -->
+
+    <section class="section light">
+
+      <div class="container">
+
+        <div class="section-heading">
+
+          <span>WHY AMAHDROP?</span>
+
+          <h2>
+            More Than Just Delivery
+          </h2>
+
+          <p>
+            We make the last mile easier for individuals,
+            businesses and transport agencies.
+          </p>
+
+        </div>
+
+
+        <div class="benefits-grid">
+
+          <div class="benefit">
+
+            <div class="benefit-icon">
+              🏍️
+            </div>
+
+            <h3>
+              Reliable Riders
+            </h3>
+
+            <p>
+              We coordinate your pickup and delivery
+              with care and professionalism.
+            </p>
+
+          </div>
+
+
+          <div class="benefit">
+
+            <div class="benefit-icon">
+              📍
+            </div>
+
+            <h3>
+              Douala Coverage
+            </h3>
+
+            <p>
+              Convenient delivery solutions across
+              Douala and surrounding areas we serve.
+            </p>
+
+          </div>
+
+
+          <div class="benefit">
+
+            <div class="benefit-icon">
+              💬
+            </div>
+
+            <h3>
+              Easy Booking
+            </h3>
+
+            <p>
+              No complicated forms. Simply contact us
+              through WhatsApp and tell us what you need.
+            </p>
+
+          </div>
+
+
+          <div class="benefit">
+
+            <div class="benefit-icon">
+              🤝
+            </div>
+
+            <h3>
+              Business Friendly
+            </h3>
+
+            <p>
+              We help businesses deliver customer orders
+              without having to manage their own delivery fleet.
+            </p>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- =========================
+         HOW IT WORKS
+    ========================== -->
+
+    <section id="how" class="section">
+
+      <div class="container">
+
+        <div class="section-heading">
+
+          <span>HOW IT WORKS</span>
+
+          <h2>
+            Delivery Made Simple
+          </h2>
+
+          <p>
+            Four simple steps from pickup to delivery.
+          </p>
+
+        </div>
+
+
+        <div class="steps">
+
+          <div class="step">
+
+            <div class="step-number">
+              1
+            </div>
+
+            <h3>
+              Contact Us
+            </h3>
+
+            <p>
+              Send us a WhatsApp message with your
+              pickup and delivery details.
+            </p>
+
+          </div>
+
+
+          <div class="step">
+
+            <div class="step-number">
+              2
+            </div>
+
+            <h3>
+              We Confirm
+            </h3>
+
+            <p>
+              We confirm the pickup details,
+              destination and delivery price.
+            </p>
+
+          </div>
+
+
+          <div class="step">
+
+            <div class="step-number">
+              3
+            </div>
+
+            <h3>
+              We Pick Up
+            </h3>
+
+            <p>
+              Our rider collects the parcel from
+              your home, business or agency.
+            </p>
+
+          </div>
+
+
+          <div class="step">
+
+            <div class="step-number">
+              4
+            </div>
+
+            <h3>
+              We Deliver
+            </h3>
+
+            <p>
+              Your parcel is delivered to the
+              requested destination.
+            </p>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- =========================
+         PRICES
+    ========================== -->
+
+    <section id="prices" class="section light">
+
+      <div class="container">
+
+        <div class="section-heading">
+
+          <span>DELIVERY PRICES</span>
+
+          <h2>
+            Douala Delivery Zones
+          </h2>
+
+          <p>
+            Our delivery prices start from 1,000 FCFA.
+            Contact us to confirm the exact price for your location.
+          </p>
+
+        </div>
+
+
+        <div class="price-table">
+
+          <div class="price-row header">
+
+            <div>
+              Zone
+            </div>
+
+            <div>
+              Coverage
+            </div>
+
+            <div>
+              From
+            </div>
+
+          </div>
+
+
+          <div class="price-row">
+
+            <div>
+              <strong>Zone 1</strong>
+            </div>
+
+            <div>
+              Central Douala
+            </div>
+
+            <div>
+              <strong>1,000 FCFA</strong>
+            </div>
+
+          </div>
+
+
+          <div class="price-row">
+
+            <div>
+              <strong>Zone 2</strong>
+            </div>
+
+            <div>
+              Nearby areas
+            </div>
+
+            <div>
+              <strong>1,500 FCFA</strong>
+            </div>
+
+          </div>
+
+
+          <div class="price-row">
+
+            <div>
+              <strong>Zone 3</strong>
+            </div>
+
+            <div>
+              Extended Douala
+            </div>
+
+            <div>
+              <strong>2,000 FCFA</strong>
+            </div>
+
+          </div>
+
+
+          <div class="price-row">
+
+            <div>
+              <strong>Zone 4</strong>
+            </div>
+
+            <div>
+              Farther destinations
+            </div>
+
+            <div>
+              <strong>From 2,500 FCFA</strong>
+            </div>
+
+          </div>
+
+        </div>
+
+
+        <p class="price-note">
+          *Prices may vary depending on the exact pickup and delivery location.
         </p>
 
-        <div class="hero-buttons">
-          <a class="btn primary"
-             href="https://wa.me/237659390725?text=Hello%20AmahDrop,%20I%20want%20to%20request%20a%20delivery."
-             target="_blank">
-            📦 Request a Delivery
+
+        <div class="center-button">
+
+          <a
+            class="btn primary"
+            href="https://wa.me/237659390725?text=Hello%20AmahDrop,%20I%20would%20like%20to%20know%20the%20delivery%20price%20for%20my%20location."
+            target="_blank"
+            rel="noopener"
+          >
+            💬 Get a Delivery Quote
           </a>
 
-          <a class="btn secondary" href="#partners">
-            Become a Partner
-          </a>
         </div>
 
-        <div class="hero-features">
-          <div>✓ Door-to-door</div>
-          <div>✓ Reliable Riders</div>
-          <div>✓ Douala-wide</div>
-        </div>
       </div>
 
-      <div class="hero-card">
-        <div class="delivery-icon">🏍️</div>
-        <h3>From Agency<br>to Your Door</h3>
-        <p>
-          Your parcel doesn't have to stop at the agency.
-          AmahDrop brings it to you.
-        </p>
-      </div>
-
-    </div>
-  </section>
+    </section>
 
 
-  <!-- SERVICES -->
-  <section id="services" class="section">
-    <div class="container">
+    <!-- =========================
+         BUSINESS PARTNERS
+    ========================== -->
 
-      <div class="section-heading">
-        <span>WHAT WE DO</span>
-        <h2>Our Delivery Services</h2>
-        <p>
-          Simple, convenient and reliable parcel delivery designed
-          for individuals and transport agencies.
-        </p>
-      </div>
+    <section id="business" class="partner-section">
 
-      <div class="cards">
+      <div class="container partner-content">
 
-        <div class="card">
-          <div class="card-icon">📦</div>
-          <h3>Agency-to-Home</h3>
+        <div class="partner-copy">
+
+          <span>
+            FOR BUSINESSES &amp; TRANSPORT AGENCIES
+          </span>
+
+          <h2>
+            Let AmahDrop Handle Your Deliveries.
+          </h2>
+
           <p>
-            We collect your parcel from transport agencies and
-            deliver it directly to your home or office.
+            Whether you run a shop, an online business or a
+            transport agency, we can help you provide convenient
+            delivery to your customers without building your
+            own delivery team.
           </p>
+
+
+          <ul>
+
+            <li>
+              ✓ Pickup from your business
+            </li>
+
+            <li>
+              ✓ Delivery directly to your customers
+            </li>
+
+            <li>
+              ✓ Transport agency last-mile delivery
+            </li>
+
+            <li>
+              ✓ Easy coordination through WhatsApp
+            </li>
+
+          </ul>
+
+
+          <div class="partner-buttons">
+
+            <a
+              class="btn partner-btn"
+              href="https://wa.me/237659390725?text=Hello%20AmahDrop,%20I%20am%20interested%20in%20partnering%20with%20AmahDrop%20for%20my%20business."
+              target="_blank"
+              rel="noopener"
+            >
+              🤝 Become a Partner
+            </a>
+
+          </div>
+
         </div>
 
-        <div class="card">
-          <div class="card-icon">🏠</div>
-          <h3>Door-to-Door Delivery</h3>
+
+        <div class="partner-highlight">
+
+          <div class="partner-highlight-icon">
+            📦
+          </div>
+
+          <h3>
+            You Sell.
+            We Deliver.
+          </h3>
+
           <p>
-            No more travelling to the agency. Our riders bring
-            your parcel directly to your doorstep.
+            Focus on your customers and your business.
+            Let AmahDrop take care of the last mile.
           </p>
-        </div>
 
-        <div class="card">
-          <div class="card-icon">⚡</div>
-          <h3>Fast Delivery</h3>
-          <p>
-            We work to get your parcel delivered quickly while
-            keeping safety and customer service a priority.
-          </p>
-        </div>
-
-        <div class="card">
-          <div class="card-icon">🤝</div>
-          <h3>Agency Partnerships</h3>
-          <p>
-            Transport agencies can partner with AmahDrop and
-            offer customers convenient last-mile delivery.
-          </p>
-        </div>
-
-      </div>
-    </div>
-  </section>
-
-
-  <!-- HOW IT WORKS -->
-  <section id="how" class="section light">
-    <div class="container">
-
-      <div class="section-heading">
-        <span>HOW IT WORKS</span>
-        <h2>Delivery Made Simple</h2>
-      </div>
-
-      <div class="steps">
-
-        <div class="step">
-          <div class="step-number">1</div>
-          <h3>Receive Your Parcel</h3>
-          <p>
-            Your parcel arrives at the transport agency.
-          </p>
-        </div>
-
-        <div class="step">
-          <div class="step-number">2</div>
-          <h3>Contact AmahDrop</h3>
-          <p>
-            Send us your parcel information and delivery location
-            through WhatsApp.
-          </p>
-        </div>
-
-        <div class="step">
-          <div class="step-number">3</div>
-          <h3>We Collect</h3>
-          <p>
-            An AmahDrop rider collects your parcel from the agency.
-          </p>
-        </div>
-
-        <div class="step">
-          <div class="step-number">4</div>
-          <h3>We Deliver</h3>
-          <p>
-            Your parcel is delivered safely to your doorstep.
-          </p>
-        </div>
-
-      </div>
-    </div>
-  </section>
-
-
-  <!-- PRICES -->
-  <section id="zones" class="section">
-    <div class="container">
-
-      <div class="section-heading">
-        <span>DELIVERY PRICES</span>
-        <h2>Douala Delivery Zones</h2>
-        <p>
-          Delivery prices depend on the destination zone.
-          Contact us to confirm the exact price for your location.
-        </p>
-      </div>
-
-      <div class="price-table">
-
-        <div class="price-row header">
-          <div>Zone</div>
-          <div>Examples</div>
-          <div>From</div>
-        </div>
-
-        <div class="price-row">
-          <div>Zone 1</div>
-          <div>Central Douala</div>
-          <div>1,000 FCFA</div>
-        </div>
-
-        <div class="price-row">
-          <div>Zone 2</div>
-          <div>Nearby areas</div>
-          <div>1,500 FCFA</div>
-        </div>
-
-        <div class="price-row">
-          <div>Zone 3</div>
-          <div>Extended Douala</div>
-          <div>2,000 FCFA</div>
-        </div>
-
-        <div class="price-row">
-          <div>Zone 4</div>
-          <div>Farther destinations</div>
-          <div>From 2,500 FCFA</div>
         </div>
 
       </div>
 
-      <p class="price-note">
-        *Prices may vary depending on the exact pickup and delivery location.
-      </p>
-
-    </div>
-  </section>
+    </section>
 
 
-  <!-- PARTNERS -->
-  <section id="partners" class="partner-section">
-    <div class="container partner-content">
+    <!-- =========================
+         ABOUT
+    ========================== -->
 
-      <div>
-        <span>FOR TRANSPORT AGENCIES</span>
-        <h2>Give Your Customers Doorstep Delivery</h2>
+    <section class="section about-section">
 
-        <p>
-          Your agency doesn't need to build its own delivery department.
-          Partner with AmahDrop and let us handle the last mile.
-        </p>
-
-        <ul>
-          <li>✓ Reduce customer inconvenience</li>
-          <li>✓ Offer an additional service</li>
-          <li>✓ Avoid the cost of running your own delivery fleet</li>
-          <li>✓ Professional riders and delivery tracking</li>
-        </ul>
-
-        <a class="btn primary"
-           href="https://wa.me/237659390725?text=Hello%20AmahDrop,%20I%20am%20interested%20in%20a%20partnership."
-           target="_blank">
-          Become an AmahDrop Partner
-        </a>
-      </div>
-
-    </div>
-  </section>
-
-
-  <!-- CONTACT -->
-  <section id="contact" class="section">
-    <div class="container">
-
-      <div class="section-heading">
-        <span>CONTACT US</span>
-        <h2>Ready to Deliver?</h2>
-        <p>
-          Contact AmahDrop and let us bring your parcel to your doorstep.
-        </p>
-      </div>
-
-      <div class="contact-box">
+      <div class="container about-grid">
 
         <div>
-          <h3>WhatsApp Business</h3>
-          <p>659 390 725</p>
+
+          <span class="about-label">
+            ABOUT AMAHDROP
+          </span>
+
+          <h2>
+            Making Parcel Delivery Easier in Douala
+          </h2>
+
         </div>
 
-        <a class="btn primary"
-           href="https://wa.me/237659390725?text=Hello%20AmahDrop,%20I%20need%20a%20delivery."
-           target="_blank">
-          Chat on WhatsApp
+
+        <div>
+
+          <p>
+            AmahDrop is a Douala-based last-mile delivery service
+            helping individuals, businesses and transport agencies
+            move parcels conveniently and reliably.
+          </p>
+
+          <p>
+            From collecting a parcel at a transport agency to
+            picking up an order from a business or collecting
+            a parcel from your home, our goal is simple:
+            <strong>make delivery easier for everyone.</strong>
+          </p>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- =========================
+         CONTACT
+    ========================== -->
+
+    <section id="contact" class="section">
+
+      <div class="container">
+
+        <div class="section-heading">
+
+          <span>CONTACT US</span>
+
+          <h2>
+            Ready to Deliver?
+          </h2>
+
+          <p>
+            Contact AmahDrop and let's get your parcel moving.
+          </p>
+
+        </div>
+
+
+        <div class="contact-box">
+
+
+          <div class="contact-info">
+
+            <span>
+              WHATSAPP BUSINESS
+            </span>
+
+            <h3>
+              +237 659 390 725
+            </h3>
+
+            <p>
+              Available for delivery requests,
+              quotes and partnership enquiries.
+            </p>
+
+          </div>
+
+
+          <div class="contact-buttons">
+
+            <a
+              class="btn primary"
+              href="https://wa.me/237659390725?text=Hello%20AmahDrop,%20I%20need%20a%20delivery."
+              target="_blank"
+              rel="noopener"
+            >
+              💬 Chat on WhatsApp
+            </a>
+
+            <a
+              class="btn secondary"
+              href="tel:+237659390725"
+            >
+              📞 Call Us
+            </a>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+  </main>
+
+
+  <!-- =========================
+       FOOTER
+  ========================== -->
+
+  <footer>
+
+    <div class="container footer-content">
+
+      <div class="footer-brand">
+
+        <a href="#home" class="footer-logo">
+
+          <img
+            src="logo.jpeg"
+            alt="AmahDrop Logo"
+          >
+
+          <span>
+            AmahDrop
+          </span>
+
+        </a>
+
+        <p>
+          Fast. Safe. Reliable.
+        </p>
+
+        <p>
+          Your trusted parcel delivery partner in Douala.
+        </p>
+
+      </div>
+
+
+      <div class="footer-links">
+
+        <h4>
+          Quick Links
+        </h4>
+
+        <a href="#services">
+          Services
+        </a>
+
+        <a href="#how">
+          How It Works
+        </a>
+
+        <a href="#prices">
+          Prices
+        </a>
+
+        <a href="#business">
+          Business
+        </a>
+
+        <a href="#contact">
+          Contact
+        </a>
+
+      </div>
+
+
+      <div class="footer-contact">
+
+        <h4>
+          Contact
+        </h4>
+
+        <p>
+          📍 Douala, Cameroon
+        </p>
+
+        <p>
+          📞 +237 659 390 725
+        </p>
+
+        <a
+          href="https://wa.me/237659390725"
+          target="_blank"
+          rel="noopener"
+        >
+          💬 WhatsApp
         </a>
 
       </div>
 
     </div>
-  </section>
 
-
-  <!-- FOOTER -->
-  <footer>
-    <div class="container footer-content">
-
-      <div>
-        <h3>AmahDrop</h3>
-        <p>Fast. Safe. Reliable.</p>
-      </div>
-
-      <div>
-        <p>Douala, Cameroon</p>
-        <p>WhatsApp: 659 390 725</p>
-      </div>
-
-    </div>
 
     <div class="copyright">
-      © 2026 AmahDrop. All rights reserved.
+
+      © <span id="currentYear">2026</span>
+      AmahDrop. All rights reserved.
+
     </div>
+
   </footer>
+
+
+  <!-- FLOATING WHATSAPP -->
+
+  <a
+    class="floating-whatsapp"
+    href="https://wa.me/237659390725?text=Hello%20AmahDrop,%20I%20would%20like%20to%20request%20a%20delivery."
+    target="_blank"
+    rel="noopener"
+    aria-label="Chat with AmahDrop on WhatsApp"
+  >
+    💬
+  </a>
 
 
   <script src="script.js"></script>
